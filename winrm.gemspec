@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.rdoc_options	= %w(-x test/ -x examples/)
   s.extra_rdoc_files = %w(README.md LICENSE)
 
-  s.required_ruby_version	= '>= 1.9.0'
+  s.required_ruby_version	= '>= 1.8.7'
   s.add_runtime_dependency  'gssapi', '~> 1.1'
   s.add_runtime_dependency  'httpclient', '~> 2.2', '>= 2.2.0.2'
   s.add_runtime_dependency  'nokogiri', '~> 1.5.10'
